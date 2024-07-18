@@ -1,3 +1,46 @@
+'''
+    A node that represents a spacecraft
+    that is located on the edge of a black hole
+    in space.
+    
+    Types of spacecraft:
+        Space Stations
+        Space ships
+        Resident Living stations
+        Satelite
+            Telescope
+            Antenna
+            * Drone (Has it one class)
+                Explorer
+        Drone
+
+            
+        
+    Main Elements of A spacecraft
+    Onboard Computer
+        CPU/s
+        RAM
+        Storage
+        Power
+        * System
+            Architecture
+                Gates
+                CPU
+                Aritmetic Unit
+                Resistor
+                Transistor
+                Capacitor
+                Digital to Analog Convertor
+                Analog to Digital Convertor
+            * Conventional
+            * Quantum
+            
+    Control
+    Antenna
+                
+        
+    
+'''
 class node:
     def __init__(self, dataValues=None):
         self.dataValues = dataValues
