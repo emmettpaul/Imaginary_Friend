@@ -3,6 +3,14 @@
     that is located on the edge of a black hole
     in space.
     
+    ***** Main Elements *****
+    * Space Ship
+    * Ship Computer
+    * Space Network
+    * The black hole
+    
+    ---------------------------------------------
+        
     Types of spacecraft:
         Space Stations
         Space ships
@@ -14,7 +22,9 @@
                 Explorer
         Drone
 
-            
+    Ship Traits:
+    Weight
+    Armour 
         
     Main Elements of A spacecraft
     Onboard Computer
@@ -41,6 +51,22 @@
         
     
 '''
+
+'''
+    Section---Research: 
+    1. Ohm's Law
+    2. Trig limits
+    3. Rate and time
+    4. Logic gates
+    5. Temperature equations
+    6. The science of black holes
+'''
+
+
+####################### Classes #########################
+
+
+
 class node:
     def __init__(self, dataValues=None):
         self.dataValues = dataValues
