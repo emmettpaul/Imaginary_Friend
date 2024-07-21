@@ -85,7 +85,36 @@ def convertBinaryToBoolean(bits: int) -> list:
     
     return boolean_list
 
+def convertBinaryToBooleanOnesAndZeros(bits: str) -> list:
+    """
+    Convert a binary string into a boolean list
+    
+    Args:
+        bits (str): Any binary string
+        
+    Returns:
+        list: Boolean
+    """
+    bits_binary_literal = int('0b' + bits, 2)
+    return convertBinaryToBoolean(bits_binary_literal)   
+
 #TODO: Create a convert boolean list into binary function
+def convertBooleanToBinary(bits: list) -> int:
+    """
+    Convert a boolean list into a binary literal
+
+    Args:
+        bits (list): Any boolean list
+
+    Returns:
+        int: Binary Literal
+    """
+    binary_string = ''.join(['1' if bit else '0' for bit in bits])
+    
+    binary_literal = int(binary_string, 2)
+    
+    return bin(binary_literal)
+
 ####################### Classes #########################
 
 
